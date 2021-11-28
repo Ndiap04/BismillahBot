@@ -114,7 +114,7 @@ def get_default_query_results(quran: Quran):
 
 def main():
     global update_id
-    bot = telegram.Bot(token=TOKEN)
+    bot = telegram.Bot(token="2122964144:AAG3kqKs9fkZUU9XB93XD5f5NQZhvZuqfEw")
 
     try:
         update_id = bot.get_updates()[0].update_id
